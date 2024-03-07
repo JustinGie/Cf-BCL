@@ -1,0 +1,37 @@
+ADHD
+    --batchSize: 32
+    --ROI: 116
+    --ratio: 0.6
+    --tau: 0.5
+    --estRatio: 0.2
+    --clusterRate: 0.3
+    --learningRate: 2e-3
+    --weightDecay: 2e-5
+
+BP
+    --batchSize: 64
+    --ROI: 82
+    --ratio: 0.1
+    --tau: 0.4
+    --estRatio: 0.6
+    --clusterRate: 0.2
+    --learningRate: 2e-3
+    --weightDecay: 2e-5
+    
+
+    
+
+COBRE
+    --batchSize: 32
+    --ROI: 90
+    --ratio: 0.8
+    --tau: 0.4
+    --estRatio: 0.7
+    --clusterRate: 0.5
+    --learningRate: 1e-3
+    --weightDecay: 1e-5
+
+
+
+
+
