@@ -6,3 +6,26 @@ The Implement of "Counterfactual Data Augmentation Guided Brain Graph Contrastiv
 
  # Framework
 ![BraGCL-Framework](Readme_IMG/overview.png)
+Given the fMRI data, preprocessing fMRI data and constructing brain graph first. After that, counterfactual brain data augmentation to generate meaningful positive and hard negative brain graphs. Before optimizing by intra and inter-class loss, the interpretation learning kernel extracts the discriminate features and structures, as well as, searching similar brain graphs that contain similar semantic relationships. 
+
+# Experiments
+## Dataset
+In this project, three datasets have been evaluated, including `BP`, `COBRE` and `ADHD`.
+- **BP** is a private dataset that can not be accessed without authorization.
+- **COBRE** is a public dataset that could be downloaded from <a href="https://fcon_1000.projects.nitrc.org/indi/retro/cobre.html">[FCON_1000]</a>
+- **ADHD** is a public dataset that could be downloaded from <a href="https://fcon_1000.projects.nitrc.org/indi/adhd200/">[FCON_1000]</a>
+
+## Disorder Prediction
+The proposed method(Cf_BCL) outperforms all baseline methods on three datasets.
+![Cf-BCL-Performance](Readme_IMG/performance.png)
+
+## Neurological Biomarkers Analysis
+Visualizing salient brain regions and connections for ADHD brain disorders.
+![BraGCL-BDA](Readme_IMG/analysis.jpg)
+
+# Run
+To run our model on any of the datasets in our paper, simply run:
+```
+python main.py --dataset =<dataset name>
+```
+`--dataset` is the name of the dataset(`BP` is a private dataset, `COBRE` and `ADHD` are public datasets that could be used for everyone), the functional connectivity generated from fMRI should be located in the `data/` folder
