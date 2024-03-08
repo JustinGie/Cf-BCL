@@ -21,7 +21,7 @@ The proposed method(Cf_BCL) outperforms all baseline methods on three datasets.
 
 ## Neurological Biomarkers Analysis
 Visualizing salient brain regions and connections for ADHD brain disorders.
-![BraGCL-BDA](Readme_IMG/analysis.png)
+![Cf-BCL-Analysis](Readme_IMG/analysis.png)
 
 # Run
 To run our model on any of the datasets in our paper, simply run:
