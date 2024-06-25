@@ -18,7 +18,7 @@ The proposed method(Cf_BCL) outperforms all baseline methods on three datasets.
 
 ## Neurological Biomarkers Analysis
 ### Visualizing salient brain regions and connections using Two-Samples T-tests.
-![Cf-BCL-Analysis-T2](Readme_IMG/T2.png)
+![Cf-BCL-Analysis-T2](Readme_IMG/T2.jpg)
 
 ### Visualizing salient brain regions and connections using Interpretable Learning Kernel.
 ![Cf-BCL-Analysis-ik](Readme_IMG/ik.png)
