@@ -13,7 +13,7 @@ In this project, three datasets have been evaluated, including `BP`, `COBRE` and
 - **ADHD** is a public dataset that could be downloaded from <a href="https://fcon_1000.projects.nitrc.org/indi/adhd200/">[FCON_1000]</a>
 
 ## Disorder Prediction
-The proposed method(Cf_BCL) outperforms all baseline methods on three datasets.
+The proposed method(Cf-BCL) outperforms all baseline methods on three datasets.
 ![Cf-BCL-Performance](Readme_IMG/performance.png)
 
 ## Neurological Biomarkers Analysis
